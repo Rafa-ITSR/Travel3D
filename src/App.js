@@ -1,24 +1,25 @@
-
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css';
+import BarraMenu from './Componentes/Inicio/Menu';
 
 function App(){
   
   <div className="App">
-  <h1>Travel 3D.. Tabasco</h1>
-  
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">JavaScript</a></li>
-  </ul>
 
-  <div id="test1" class="col s12">Test 1</div>
-  <div id="test2" class="col s12">Test 2</div>
-  <div id="test3" class="col s12">Test 3</div>
-  <div id="test4" class="col s12">Test 4</div>
+<BarraMenu/>
 
-              
+
+<nav>
+    <div class="nav-wrapper">
+      <a href="1" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+        
+
   </div>
 
 }
