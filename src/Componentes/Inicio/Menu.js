@@ -1,24 +1,24 @@
+import imagen1 from '../../img/choco.png';
 
-export default function BarraMenu() {
+export default function Registro() {
 return (
-<div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+
+  <div class="row">
+    <div class="col s5 m4">
+      <div class="card">
+        <div class="responsive-img">
+          <img src={imagen1} height="150px" widht="200px"/>
+          <span class="card-title">¡Regístrate!</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"></a>
         </div>
-        <div class="card-action">
-          <a href="1">This is a link</a>
-          <a href="1">This is a link</a>
+        <div class="card-content">
+          <p>TRAVEL 3D</p>
         </div>
       </div>
+      </div>
     </div>
-  </div>
-
-
-
+  
+            
         
 )
 
