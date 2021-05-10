@@ -2,23 +2,21 @@ import imagen1 from '../../img/choco.png';
 
 export default function Registro() {
 return (
-
-  <div class="row">
-    <div class="col s5 m4">
-      <div class="card">
-        <div class="responsive-img">
-          <img src={imagen1} height="150px" widht="200px"/>
-          <span class="card-title">¡Regístrate!</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"></a>
-        </div>
-        <div class="card-content">
-          <p>TRAVEL 3D</p>
-        </div>
-      </div>
-      </div>
+<body> 
+<div class= "container">
+  <div class="center">
+<div class="col s4 m3 offset-m2 l2 offset-l1">
+  <div class="row valign-wrapper">
+    <div class="col s2">
+      <img src={imagen1}  class="responsive-img" height="600px" width="500px" /> 
+    <div class="col s2">
     </div>
-  
-            
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>     
         
 )
 
